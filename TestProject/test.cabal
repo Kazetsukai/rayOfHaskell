@@ -1,0 +1,9 @@
+name: 			Test
+version: 		0.0
+
+build-depends: 	base, time, SDL
+build-type: 	Simple
+
+
+executable:		test
+main-is:		Main.hs
