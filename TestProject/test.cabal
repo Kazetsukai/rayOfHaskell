@@ -1,9 +1,10 @@
 name: 			Test
 version: 		0.0
 
-build-depends: 	base, time, gloss, gloss-raster
-build-type: 	Simple
+build-type:     Simple
 
 
-executable:		test
-main-is:		Main.hs
+executable test
+  main-is:		Main.hs
+  build-depends: 	base, time, gloss, gloss-raster, vector
+  ghc-options: -pgmlo opt -pgmlc llc -threaded -Odph -fno-liberate-case -funfolding-use-threshold1000 -funfolding-keeness-factor1000 -fllvm -optlo-O3

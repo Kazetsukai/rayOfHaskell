@@ -27,26 +27,18 @@
 			"file": "Main.hs",
 			"settings":
 			{
-				"buffer_size": 506,
+				"buffer_size": 246,
 				"line_ending": "Windows",
 				"name": "test.hs"
 			}
 		},
 		{
-			"file": "/C/Users/Kazetsukai/AppData/Roaming/Sublime Text 3/Packages/User/HaskellMainGHC.sublime-build",
+			"contents": "cabal install --ghc-options=\"-pgmlo opt -pgmlc llc -fllvm\"",
 			"settings":
 			{
-				"buffer_size": 44,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "test.cabal",
-			"settings":
-			{
-				"buffer_size": 114,
+				"buffer_size": 58,
 				"line_ending": "Windows",
-				"name": "test.cabal"
+				"name": "cabal install --ghc-options=\"-pgmlo opt -pgmlc llc"
 			}
 		}
 	],
@@ -84,6 +76,8 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Kazetsukai/Documents/Haskell/rayOfHaskell/TestProject/test.cabal",
+		"/C/Users/Kazetsukai/AppData/Roaming/Sublime Text 3/Packages/User/HaskellMainGHC.sublime-build",
 		"/C/Users/Kazetsukai/Documents/Haskell/TestProject/test.sublime-workspace",
 		"/C/Users/Kazetsukai/Documents/Haskell/TestProject/Drawgrid.hs",
 		"/C/Users/Kazetsukai/Documents/Haskell/TestProject/test.sublime-project",
@@ -134,24 +128,24 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 506,
+						"buffer_size": 246,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								477,
-								477
+								178,
+								178
 							]
 						],
 						"settings":
 						{
 							"auto_name": "test.hs",
-							"syntax": "Packages/Haskell/Haskell.tmLanguage"
+							"syntax": "Packages/SublimeHaskell/Syntaxes/Haskell-SublimeHaskell.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 279.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -159,53 +153,24 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/C/Users/Kazetsukai/AppData/Roaming/Sublime Text 3/Packages/User/HaskellMainGHC.sublime-build",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 44,
+						"buffer_size": 58,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								40,
-								40
+								58,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "test.cabal",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 114,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								78,
-								78
-							]
-						],
-						"settings":
-						{
-							"auto_name": "test.cabal",
-							"syntax": "Packages/SublimeHaskell/Syntaxes/Cabal.tmLanguage"
+							"auto_name": "cabal install --ghc-options=\"-pgmlo opt -pgmlc llc",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
